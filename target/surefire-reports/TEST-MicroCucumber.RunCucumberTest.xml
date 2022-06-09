@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="MicroCucumber.RunCucumberTest" time="0.798" tests="101" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Carlos\Desktop\Universidad\Ingeniería del Software Avanzada\CosasJava\MicroCucumber\target\test-classes;C:\Users\Carlos\Desktop\Universidad\Ingeniería del Software Avanzada\CosasJava\MicroCucumber\target\classes;C:\Users\Carlos\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Carlos\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Carlos\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Carlos\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Carlos\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Carlos\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.0.0\cucumber-junit-platform-engine-7.0.0.jar;C:\Users\Carlos\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Carlos\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Carlos\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Carlos\AppData\Local\Temp\surefire465236897899947178\surefirebooter914989339464353377.jar C:\Users\Carlos\AppData\Local\Temp\surefire465236897899947178 2022-06-09T17-07-26_115-jvmRun1 surefire8249747537509883120tmp surefire_012679834115636801715tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Carlos\Desktop\Universidad\Ingeniería del Software Avanzada\CosasJava\MicroCucumber\target\test-classes;C:\Users\Carlos\Desktop\Universidad\Ingeniería del Software Avanzada\CosasJava\MicroCucumber\target\classes;C:\Users\Carlos\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Carlos\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Carlos\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Carlos\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Carlos\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Carlos\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Carlos\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.0.0\cucumber-junit-platform-engine-7.0.0.jar;C:\Users\Carlos\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Carlos\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Carlos\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\Carlos\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Carlos"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Carlos\Desktop\Universidad\Ingeniería del Software Avanzada\CosasJava\MicroCucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Carlos\AppData\Local\Temp\surefire465236897899947178\surefirebooter914989339464353377.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.1.1+2-6"/>
+    <property name="user.name" value="Carlos"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Carlos\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Carlos\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.1.1"/>
+    <property name="user.dir" value="C:\Users\Carlos\Desktop\Universidad\Ingeniería del Software Avanzada\CosasJava\MicroCucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Carlos\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Carlos\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\MATLAB\R2021a\runtime\win64;C:\Program Files\MATLAB\R2021a\bin;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\apache-maven-3.8.5\bin;C:\Users\Carlos\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.1.1+2-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="We want to use a microwave" classname="a closed microwave with an item inside it" time="0.086">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave              &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe door is closed&amp#27;[0m                         &amp#27;[90m# MicroCucumber.StepDefinitions.the_door_is_closed()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is not heating&amp#27;[0m                           &amp#27;[90m# MicroCucumber.StepDefinitions.not_heating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe lamp of the microwave is off&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.lamp_is_off()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe turntable is still&amp#27;[0m                      &amp#27;[90m# MicroCucumber.StepDefinitions.still_turntable()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is not cooking right now&amp#27;[0m                 &amp#27;[90m# MicroCucumber.StepDefinitions.not_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is not empty&amp#27;[0m                             &amp#27;[90m# MicroCucumber.StepDefinitions.not_empty()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a closed microwave with an item inside it" time="0.011">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave              &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit is closed with an item in it&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.state_ClosedWithItem()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a closed microwave with an item inside it" time="0.009">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave              &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI open the microwave&amp#27;[0m                       &amp#27;[90m# MicroCucumber.StepDefinitions.open_microwave()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit is opened with an item in it&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.state_OpenWithItem()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a closed microwave with an item inside it" time="0.011">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave                      &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m         &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI introduce an item&amp#27;[0m                                &amp#27;[90m# MicroCucumber.StepDefinitions.insert_item()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit warns me with &amp#27;[0m&amp#27;[32m&amp#27;[1m'You need to open the door first'&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.open_door_first(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a closed microwave with an item inside it" time="0.01">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave              &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m30&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a closed microwave with an item inside it" time="0.009">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave              &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m         &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m                       &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a closed microwave with an item inside it" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave              &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:61&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the cook button&amp#27;[0m                     &amp#27;[90m# MicroCucumber.StepDefinitions.start_cooking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit cooks&amp#27;[0m                                   &amp#27;[90m# MicroCucumber.StepDefinitions.cocking()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a closed microwave with an item inside it" time="0.007">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave              &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:68&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m         &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the power reset button&amp#27;[0m              &amp#27;[90m# MicroCucumber.StepDefinitions.power_reset()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the timer reset button&amp#27;[0m              &amp#27;[90m# MicroCucumber.StepDefinitions.timer_reset()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                         &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                  &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a closed microwave with an item inside it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave              &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:77&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time decrement button&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.time_dec()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m30&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a closed microwave with an item inside it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave              &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:84&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m         &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the power decrement button&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.power_dec()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                         &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a closed microwave with an item inside it" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave              &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:90&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power decrement button&amp#27;[0m         &amp#27;[90m# MicroCucumber.StepDefinitions.power_dec()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                         &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a closed microwave with an item inside it" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave              &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:95&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time decrement button&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.time_dec()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                 &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.012">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave      &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:44&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m times&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 100"&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave      &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:56&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m times&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 30"&amp#27;[0m         &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:44&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m times&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 100"&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:56&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m times&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 30"&amp#27;[0m    &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/Cooking.feature:44&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m              &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m times&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 200"&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/Cooking.feature:56&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m              &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m times&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 60"&amp#27;[0m    &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave       &amp#27;[90m# MicroCucumber/OpenWithItem.feature:44&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m times&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 100"&amp#27;[0m        &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave       &amp#27;[90m# MicroCucumber/OpenWithItem.feature:56&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m times&amp#27;[0m             &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 30"&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:44&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m     &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m times&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 100"&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:56&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m     &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m times&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 30"&amp#27;[0m    &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.01">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave      &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:45&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m times&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 200"&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.011">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave      &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:57&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m times&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 60"&amp#27;[0m         &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:45&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m times&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 200"&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:57&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m times&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 60"&amp#27;[0m    &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/Cooking.feature:45&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m              &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m times&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 300"&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/Cooking.feature:57&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m              &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m times&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 90"&amp#27;[0m    &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave       &amp#27;[90m# MicroCucumber/OpenWithItem.feature:45&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m times&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 200"&amp#27;[0m        &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave       &amp#27;[90m# MicroCucumber/OpenWithItem.feature:57&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m times&amp#27;[0m             &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 60"&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.007">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:45&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m     &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m times&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 200"&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:57&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m     &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m times&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 60"&amp#27;[0m    &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.009">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave      &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:46&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m times&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 500"&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave      &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:58&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m times&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 90"&amp#27;[0m         &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:46&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m times&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 500"&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:58&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m times&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 90"&amp#27;[0m    &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/Cooking.feature:46&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m              &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m times&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 600"&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/Cooking.feature:58&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m              &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m times&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 120"&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave       &amp#27;[90m# MicroCucumber/OpenWithItem.feature:46&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m times&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 500"&amp#27;[0m        &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave       &amp#27;[90m# MicroCucumber/OpenWithItem.feature:58&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m times&amp#27;[0m             &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 90"&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:46&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m     &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m times&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 500"&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:58&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m     &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m times&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 90"&amp#27;[0m    &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.009">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave      &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m times&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 1000"&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave      &amp#27;[90m# MicroCucumber/ClosedWithItem.feature:59&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.closed_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m times&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 120"&amp#27;[0m        &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m times&amp#27;[0m     &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 1000"&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:59&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m times&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 120"&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/Cooking.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m              &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m times&amp#27;[0m     &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 1000"&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/Cooking.feature:59&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m              &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m times&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 150"&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave       &amp#27;[90m# MicroCucumber/OpenWithItem.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m times&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 1000"&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave       &amp#27;[90m# MicroCucumber/OpenWithItem.feature:59&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m times&amp#27;[0m             &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 120"&amp#27;[0m         &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m     &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press power_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m times&amp#27;[0m     &amp#27;[90m# MicroCucumber.StepDefinitions.set_power(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Power: 1000"&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: We want to use a microwave &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:59&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m     &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press time_inc button &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m times&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.set_timer(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe display should show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Time: 120"&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.display_power(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="A closed microwave without anything in it" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave    &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe door is closed&amp#27;[0m               &amp#27;[90m# MicroCucumber.StepDefinitions.the_door_is_closed()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is not heating&amp#27;[0m                 &amp#27;[90m# MicroCucumber.StepDefinitions.not_heating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe lamp of the microwave is off&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.lamp_is_off()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe turntable is still&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.still_turntable()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is not cooking right now&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.not_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is empty&amp#27;[0m                       &amp#27;[90m# MicroCucumber.StepDefinitions.is_empty()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="A closed microwave without anything in it" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave       &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m    &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit is closed without anything in it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.state_ClosedWithNoItem()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="A closed microwave without anything in it" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave       &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m    &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI open the microwave&amp#27;[0m                &amp#27;[90m# MicroCucumber.StepDefinitions.open_microwave()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit is opened without anything in it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.state_OpenWithNoItem()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="A closed microwave without anything in it" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave                      &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m                   &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI introduce an item&amp#27;[0m                                &amp#27;[90m# MicroCucumber.StepDefinitions.insert_item()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit warns me with &amp#27;[0m&amp#27;[32m&amp#27;[1m'You need to open the door first'&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.open_door_first(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="A closed microwave without anything in it" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave     &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m30&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="A closed microwave without anything in it" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave      &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m               &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="A closed microwave without anything in it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave           &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:61&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m        &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the cook button&amp#27;[0m                 &amp#27;[90m# MicroCucumber.StepDefinitions.start_cooking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit warns me with &amp#27;[0m&amp#27;[32m&amp#27;[1m'Choose cooking power'&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.open_door_first(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="A closed microwave without anything in it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave      &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:66&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the cook button&amp#27;[0m             &amp#27;[90m# MicroCucumber.StepDefinitions.start_cooking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit warns me with &amp#27;[0m&amp#27;[32m&amp#27;[1m'Introduce Item'&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.open_door_first(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="A closed microwave without anything in it" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave      &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:73&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the power reset button&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.power_reset()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the timer reset button&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.timer_reset()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                 &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="A closed microwave without anything in it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave     &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:82&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time decrement button&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.time_dec()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m30&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="A closed microwave without anything in it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave      &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:89&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the power decrement button&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.power_dec()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                 &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="A closed microwave without anything in it" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave      &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:95&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power decrement button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.power_dec()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                 &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="A closed microwave without anything in it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave     &amp#27;[90m# MicroCucumber/ClosedWithNoItem.feature:100&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma closed microwave with no item&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.a_closed_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time decrement button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.time_dec()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a microwave microwaving" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave   &amp#27;[90m# MicroCucumber/Cooking.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m        &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe door is closed&amp#27;[0m              &amp#27;[90m# MicroCucumber.StepDefinitions.the_door_is_closed()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is heating&amp#27;[0m                    &amp#27;[90m# MicroCucumber.StepDefinitions.heating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe lamp of the microwave is off&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.lamp_is_off()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe turntable is moving&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.moving_turntable()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit cooks&amp#27;[0m                         &amp#27;[90m# MicroCucumber.StepDefinitions.cocking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is not empty&amp#27;[0m                  &amp#27;[90m# MicroCucumber.StepDefinitions.not_empty()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a microwave microwaving" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave &amp#27;[90m# MicroCucumber/Cooking.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit is cooking&amp#27;[0m                 &amp#27;[90m# MicroCucumber.StepDefinitions.cooking()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a microwave microwaving" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave   &amp#27;[90m# MicroCucumber/Cooking.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m        &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI open the microwave&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.open_microwave()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit is opened with an item in it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.state_OpenWithItem()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a microwave microwaving" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave                      &amp#27;[90m# MicroCucumber/Cooking.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m                           &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI introduce an item&amp#27;[0m                                &amp#27;[90m# MicroCucumber.StepDefinitions.insert_item()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit warns me with &amp#27;[0m&amp#27;[32m&amp#27;[1m'You need to open the door first'&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.open_door_first(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a microwave microwaving" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave     &amp#27;[90m# MicroCucumber/Cooking.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m60&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a microwave microwaving" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave      &amp#27;[90m# MicroCucumber/Cooking.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m               &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a microwave microwaving" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave     &amp#27;[90m# MicroCucumber/Cooking.feature:61&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the cook button&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.start_cooking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit cooks&amp#27;[0m                          &amp#27;[90m# MicroCucumber.StepDefinitions.cocking()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a microwave microwaving" time="0.008">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave      &amp#27;[90m# MicroCucumber/Cooking.feature:68&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the power reset button&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.power_reset()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the timer reset button&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.timer_reset()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                 &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is not cooking&amp#27;[0m                   &amp#27;[90m# MicroCucumber.StepDefinitions.notcocking()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a microwave microwaving" time="0.007">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave     &amp#27;[90m# MicroCucumber/Cooking.feature:78&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time decrement button&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.time_dec()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m60&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a microwave microwaving" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave      &amp#27;[90m# MicroCucumber/Cooking.feature:85&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the power decrement button&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.power_dec()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m               &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a microwave microwaving" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave      &amp#27;[90m# MicroCucumber/Cooking.feature:91&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power decrement button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.power_dec()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                 &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is not cooking&amp#27;[0m                   &amp#27;[90m# MicroCucumber.StepDefinitions.notcocking()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="a microwave microwaving" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave     &amp#27;[90m# MicroCucumber/Cooking.feature:97&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma microwave microwaving&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.microwaving()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time decrement button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.time_dec()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is not cooking&amp#27;[0m                  &amp#27;[90m# MicroCucumber.StepDefinitions.notcocking()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave with an item inside it" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave               &amp#27;[90m# MicroCucumber/OpenWithItem.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe door is opened&amp#27;[0m                          &amp#27;[90m# MicroCucumber.StepDefinitions.the_door_is_opened()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is not heating&amp#27;[0m                            &amp#27;[90m# MicroCucumber.StepDefinitions.not_heating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe lamp of the microwave is on&amp#27;[0m              &amp#27;[90m# MicroCucumber.StepDefinitions.lamp_is_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe turntable is still&amp#27;[0m                       &amp#27;[90m# MicroCucumber.StepDefinitions.still_turntable()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is not cooking right now&amp#27;[0m                  &amp#27;[90m# MicroCucumber.StepDefinitions.not_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is not empty&amp#27;[0m                              &amp#27;[90m# MicroCucumber.StepDefinitions.not_empty()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave with an item inside it" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave               &amp#27;[90m# MicroCucumber/OpenWithItem.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit is opened with an item in it&amp#27;[0m             &amp#27;[90m# MicroCucumber.StepDefinitions.state_OpenWithItem()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave with an item inside it" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave               &amp#27;[90m# MicroCucumber/OpenWithItem.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI close the microwave&amp#27;[0m                       &amp#27;[90m# MicroCucumber.StepDefinitions.close_microwave()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit is closed with an item in it&amp#27;[0m             &amp#27;[90m# MicroCucumber.StepDefinitions.state_ClosedWithItem()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave with an item inside it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave                &amp#27;[90m# MicroCucumber/OpenWithItem.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI introduce an item&amp#27;[0m                          &amp#27;[90m# MicroCucumber.StepDefinitions.insert_item()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit warns me with &amp#27;[0m&amp#27;[32m&amp#27;[1m'There is something inside'&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.open_door_first(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave with an item inside it" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave               &amp#27;[90m# MicroCucumber/OpenWithItem.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m30&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                 &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave with an item inside it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave               &amp#27;[90m# MicroCucumber/OpenWithItem.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m                        &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave with an item inside it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave               &amp#27;[90m# MicroCucumber/OpenWithItem.feature:61&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the cook button&amp#27;[0m                      &amp#27;[90m# MicroCucumber.StepDefinitions.start_cooking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit warns me with &amp#27;[0m&amp#27;[32m&amp#27;[1m'Close the door'&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.open_door_first(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave with an item inside it" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave               &amp#27;[90m# MicroCucumber/OpenWithItem.feature:68&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the power reset button&amp#27;[0m               &amp#27;[90m# MicroCucumber.StepDefinitions.power_reset()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the timer reset button&amp#27;[0m               &amp#27;[90m# MicroCucumber.StepDefinitions.timer_reset()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                          &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                   &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave with an item inside it" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave               &amp#27;[90m# MicroCucumber/OpenWithItem.feature:77&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time decrement button&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.time_dec()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m30&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                 &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave with an item inside it" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave               &amp#27;[90m# MicroCucumber/OpenWithItem.feature:84&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the power decrement button&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.power_dec()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                          &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave with an item inside it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave               &amp#27;[90m# MicroCucumber/OpenWithItem.feature:90&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power decrement button&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.power_dec()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                          &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave with an item inside it" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave               &amp#27;[90m# MicroCucumber/OpenWithItem.feature:95&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with an item inside it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_an_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time decrement button&amp#27;[0m           &amp#27;[90m# MicroCucumber.StepDefinitions.time_dec()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m                  &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave without anything in it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave     &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe door is opened&amp#27;[0m                &amp#27;[90m# MicroCucumber.StepDefinitions.the_door_is_opened()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is not heating&amp#27;[0m                  &amp#27;[90m# MicroCucumber.StepDefinitions.not_heating()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe lamp of the microwave is on&amp#27;[0m    &amp#27;[90m# MicroCucumber.StepDefinitions.lamp_is_on()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe turntable is still&amp#27;[0m             &amp#27;[90m# MicroCucumber.StepDefinitions.still_turntable()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is not cooking right now&amp#27;[0m        &amp#27;[90m# MicroCucumber.StepDefinitions.not_cooking()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit is empty&amp#27;[0m                        &amp#27;[90m# MicroCucumber.StepDefinitions.is_empty()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave without anything in it" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave       &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit is opened without anything in it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.state_OpenWithNoItem()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave without anything in it" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave       &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI close the microwave&amp#27;[0m               &amp#27;[90m# MicroCucumber.StepDefinitions.close_microwave()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit is closed without anything in it&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.state_ClosedWithNoItem()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave without anything in it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave     &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI introduce an item&amp#27;[0m               &amp#27;[90m# MicroCucumber.StepDefinitions.insert_item()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit is opened with an item in it&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.state_OpenWithItem()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave without anything in it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave     &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m30&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave without anything in it" time="0.004">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave      &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m100&amp#27;[0m               &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave without anything in it" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave     &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:61&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the cook button&amp#27;[0m            &amp#27;[90m# MicroCucumber.StepDefinitions.start_cooking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit warns me with &amp#27;[0m&amp#27;[32m&amp#27;[1m'Introduce Item'&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.open_door_first(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave without anything in it" time="0.006">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave      &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:68&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m   &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the power reset button&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.power_reset()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the timer reset button&amp#27;[0m      &amp#27;[90m# MicroCucumber.StepDefinitions.timer_reset()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                 &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m          &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave without anything in it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave     &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:77&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time decrement button&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.time_dec()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the time increment button&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.time_inc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m30&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m       &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave without anything in it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave      &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:84&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power increment button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.power_inc()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI press the power decrement button&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.power_dec()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                 &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave without anything in it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave      &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:90&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m  &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the power decrement button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.power_dec()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets power to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                 &amp#27;[90m# MicroCucumber.StepDefinitions.power(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="We want to use a microwave" classname="An opened microwave without anything in it" time="0.005">
+    <system-out><![CDATA[
+Scenario: We want to use a microwave     &amp#27;[90m# MicroCucumber/OpenWithNoItem.feature:95&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man opened microwave with no item&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.opened_microwave_with_no_item()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI press the time decrement button&amp#27;[0m &amp#27;[90m# MicroCucumber.StepDefinitions.time_dec()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit sets timer to &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m        &amp#27;[90m# MicroCucumber.StepDefinitions.tiempo(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
