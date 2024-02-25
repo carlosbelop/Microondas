@@ -30,7 +30,7 @@ El proyecto incluye pruebas exhaustivas para validar el correcto funcionamiento 
 
 Para una experiencia de usuario más amigable, se ha implementado una interfaz gráfica que simplifica el uso del microondas. Esta interfaz facilita la interacción del usuario con las distintas funciones del dispositivo.
 
-![Imagen de Microondas](microwave.jpg)
+![Imagen de Microondas](microwave.png)
 
 ---
 
