@@ -26,6 +26,9 @@ Para realizar transiciones entre estos estados, el microondas debe cumplir requi
 
 El proyecto incluye pruebas exhaustivas para validar el correcto funcionamiento del microondas. Se han utilizado tanto pruebas unitarias con JUnit como pruebas de comportamiento con Cucumber.
 
+![Imagen de JUNIT](JUNITest.png)
+![Imagen de Cucumber](Cucumbertest.png)
+
 ## Interfaz Gráfica
 
 Para una experiencia de usuario más amigable, se ha implementado una interfaz gráfica que simplifica el uso del microondas. Esta interfaz facilita la interacción del usuario con las distintas funciones del dispositivo.
